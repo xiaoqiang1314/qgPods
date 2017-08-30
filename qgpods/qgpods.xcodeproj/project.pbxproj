@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF9C8EC51F56A49D00AF8D1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C8EC41F56A49D00AF8D1F /* main.m */; };
+		EF9C8EC81F56A49D00AF8D1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C8EC71F56A49D00AF8D1F /* AppDelegate.m */; };
+		EF9C8ECB1F56A49D00AF8D1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C8ECA1F56A49D00AF8D1F /* ViewController.m */; };
+		EF9C8ECE1F56A49D00AF8D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9C8ECC1F56A49D00AF8D1F /* Main.storyboard */; };
+		EF9C8ED01F56A49D00AF8D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9C8ECF1F56A49D00AF8D1F /* Assets.xcassets */; };
+		EF9C8ED31F56A49D00AF8D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9C8ED11F56A49D00AF8D1F /* LaunchScreen.storyboard */; };
+		EF9C8EDE1F56A49D00AF8D1F /* qgpodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C8EDD1F56A49D00AF8D1F /* qgpodsTests.m */; };
+		EF9C8EE91F56A49D00AF8D1F /* qgpodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C8EE81F56A49D00AF8D1F /* qgpodsUITests.m */; };
+		EF9C8EF81F56A4BE00AF8D1F /* qgpods.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C8EF71F56A4BE00AF8D1F /* qgpods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF9C8EDA1F56A49D00AF8D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9C8EB81F56A49D00AF8D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9C8EBF1F56A49D00AF8D1F;
+			remoteInfo = qgpods;
+		};
+		EF9C8EE51F56A49D00AF8D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9C8EB81F56A49D00AF8D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9C8EBF1F56A49D00AF8D1F;
+			remoteInfo = qgpods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF9C8EC01F56A49D00AF8D1F /* qgpods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qgpods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9C8EC41F56A49D00AF8D1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF9C8EC61F56A49D00AF8D1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9C8EC71F56A49D00AF8D1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9C8EC91F56A49D00AF8D1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF9C8ECA1F56A49D00AF8D1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF9C8ECD1F56A49D00AF8D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF9C8ECF1F56A49D00AF8D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF9C8ED21F56A49D00AF8D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF9C8ED41F56A49D00AF8D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9C8ED91F56A49D00AF8D1F /* qgpodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qgpodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9C8EDD1F56A49D00AF8D1F /* qgpodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qgpodsTests.m; sourceTree = "<group>"; };
+		EF9C8EDF1F56A49D00AF8D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9C8EE41F56A49D00AF8D1F /* qgpodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qgpodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9C8EE81F56A49D00AF8D1F /* qgpodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qgpodsUITests.m; sourceTree = "<group>"; };
+		EF9C8EEA1F56A49D00AF8D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9C8EF61F56A4BE00AF8D1F /* qgpods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qgpods.h; sourceTree = "<group>"; };
+		EF9C8EF71F56A4BE00AF8D1F /* qgpods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qgpods.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9C8EBD1F56A49D00AF8D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9C8ED61F56A49D00AF8D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9C8EE11F56A49D00AF8D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF9C8EB71F56A49D00AF8D1F = {
+			isa = PBXGroup;
+			children = (
+				EF9C8EC21F56A49D00AF8D1F /* qgpods */,
+				EF9C8EDC1F56A49D00AF8D1F /* qgpodsTests */,
+				EF9C8EE71F56A49D00AF8D1F /* qgpodsUITests */,
+				EF9C8EC11F56A49D00AF8D1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9C8EC11F56A49D00AF8D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9C8EC01F56A49D00AF8D1F /* qgpods.app */,
+				EF9C8ED91F56A49D00AF8D1F /* qgpodsTests.xctest */,
+				EF9C8EE41F56A49D00AF8D1F /* qgpodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9C8EC21F56A49D00AF8D1F /* qgpods */ = {
+			isa = PBXGroup;
+			children = (
+				EF9C8EC61F56A49D00AF8D1F /* AppDelegate.h */,
+				EF9C8EF61F56A4BE00AF8D1F /* qgpods.h */,
+				EF9C8EF71F56A4BE00AF8D1F /* qgpods.m */,
+				EF9C8EC71F56A49D00AF8D1F /* AppDelegate.m */,
+				EF9C8EC91F56A49D00AF8D1F /* ViewController.h */,
+				EF9C8ECA1F56A49D00AF8D1F /* ViewController.m */,
+				EF9C8ECC1F56A49D00AF8D1F /* Main.storyboard */,
+				EF9C8ECF1F56A49D00AF8D1F /* Assets.xcassets */,
+				EF9C8ED11F56A49D00AF8D1F /* LaunchScreen.storyboard */,
+				EF9C8ED41F56A49D00AF8D1F /* Info.plist */,
+				EF9C8EC31F56A49D00AF8D1F /* Supporting Files */,
+			);
+			path = qgpods;
+			sourceTree = "<group>";
+		};
+		EF9C8EC31F56A49D00AF8D1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9C8EC41F56A49D00AF8D1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF9C8EDC1F56A49D00AF8D1F /* qgpodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9C8EDD1F56A49D00AF8D1F /* qgpodsTests.m */,
+				EF9C8EDF1F56A49D00AF8D1F /* Info.plist */,
+			);
+			path = qgpodsTests;
+			sourceTree = "<group>";
+		};
+		EF9C8EE71F56A49D00AF8D1F /* qgpodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9C8EE81F56A49D00AF8D1F /* qgpodsUITests.m */,
+				EF9C8EEA1F56A49D00AF8D1F /* Info.plist */,
+			);
+			path = qgpodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9C8EBF1F56A49D00AF8D1F /* qgpods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9C8EED1F56A49D00AF8D1F /* Build configuration list for PBXNativeTarget "qgpods" */;
+			buildPhases = (
+				EF9C8EBC1F56A49D00AF8D1F /* Sources */,
+				EF9C8EBD1F56A49D00AF8D1F /* Frameworks */,
+				EF9C8EBE1F56A49D00AF8D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qgpods;
+			productName = qgpods;
+			productReference = EF9C8EC01F56A49D00AF8D1F /* qgpods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF9C8ED81F56A49D00AF8D1F /* qgpodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9C8EF01F56A49D00AF8D1F /* Build configuration list for PBXNativeTarget "qgpodsTests" */;
+			buildPhases = (
+				EF9C8ED51F56A49D00AF8D1F /* Sources */,
+				EF9C8ED61F56A49D00AF8D1F /* Frameworks */,
+				EF9C8ED71F56A49D00AF8D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9C8EDB1F56A49D00AF8D1F /* PBXTargetDependency */,
+			);
+			name = qgpodsTests;
+			productName = qgpodsTests;
+			productReference = EF9C8ED91F56A49D00AF8D1F /* qgpodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF9C8EE31F56A49D00AF8D1F /* qgpodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9C8EF31F56A49D00AF8D1F /* Build configuration list for PBXNativeTarget "qgpodsUITests" */;
+			buildPhases = (
+				EF9C8EE01F56A49D00AF8D1F /* Sources */,
+				EF9C8EE11F56A49D00AF8D1F /* Frameworks */,
+				EF9C8EE21F56A49D00AF8D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9C8EE61F56A49D00AF8D1F /* PBXTargetDependency */,
+			);
+			name = qgpodsUITests;
+			productName = qgpodsUITests;
+			productReference = EF9C8EE41F56A49D00AF8D1F /* qgpodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9C8EB81F56A49D00AF8D1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = strong;
+				TargetAttributes = {
+					EF9C8EBF1F56A49D00AF8D1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF9C8ED81F56A49D00AF8D1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF9C8EBF1F56A49D00AF8D1F;
+					};
+					EF9C8EE31F56A49D00AF8D1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF9C8EBF1F56A49D00AF8D1F;
+					};
+				};
+			};
+			buildConfigurationList = EF9C8EBB1F56A49D00AF8D1F /* Build configuration list for PBXProject "qgpods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9C8EB71F56A49D00AF8D1F;
+			productRefGroup = EF9C8EC11F56A49D00AF8D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9C8EBF1F56A49D00AF8D1F /* qgpods */,
+				EF9C8ED81F56A49D00AF8D1F /* qgpodsTests */,
+				EF9C8EE31F56A49D00AF8D1F /* qgpodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9C8EBE1F56A49D00AF8D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9C8ED31F56A49D00AF8D1F /* LaunchScreen.storyboard in Resources */,
+				EF9C8ED01F56A49D00AF8D1F /* Assets.xcassets in Resources */,
+				EF9C8ECE1F56A49D00AF8D1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9C8ED71F56A49D00AF8D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9C8EE21F56A49D00AF8D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9C8EBC1F56A49D00AF8D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9C8ECB1F56A49D00AF8D1F /* ViewController.m in Sources */,
+				EF9C8EF81F56A4BE00AF8D1F /* qgpods.m in Sources */,
+				EF9C8EC81F56A49D00AF8D1F /* AppDelegate.m in Sources */,
+				EF9C8EC51F56A49D00AF8D1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9C8ED51F56A49D00AF8D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9C8EDE1F56A49D00AF8D1F /* qgpodsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9C8EE01F56A49D00AF8D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9C8EE91F56A49D00AF8D1F /* qgpodsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF9C8EDB1F56A49D00AF8D1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF9C8EBF1F56A49D00AF8D1F /* qgpods */;
+			targetProxy = EF9C8EDA1F56A49D00AF8D1F /* PBXContainerItemProxy */;
+		};
+		EF9C8EE61F56A49D00AF8D1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF9C8EBF1F56A49D00AF8D1F /* qgpods */;
+			targetProxy = EF9C8EE51F56A49D00AF8D1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF9C8ECC1F56A49D00AF8D1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9C8ECD1F56A49D00AF8D1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF9C8ED11F56A49D00AF8D1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9C8ED21F56A49D00AF8D1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9C8EEB1F56A49D00AF8D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF9C8EEC1F56A49D00AF8D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9C8EEE1F56A49D00AF8D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qgpods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.qgpods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF9C8EEF1F56A49D00AF8D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qgpods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.qgpods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF9C8EF11F56A49D00AF8D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qgpodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.qgpodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qgpods.app/qgpods";
+			};
+			name = Debug;
+		};
+		EF9C8EF21F56A49D00AF8D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qgpodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.qgpodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qgpods.app/qgpods";
+			};
+			name = Release;
+		};
+		EF9C8EF41F56A49D00AF8D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = qgpodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.qgpodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = qgpods;
+			};
+			name = Debug;
+		};
+		EF9C8EF51F56A49D00AF8D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = qgpodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.qgpodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = qgpods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9C8EBB1F56A49D00AF8D1F /* Build configuration list for PBXProject "qgpods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9C8EEB1F56A49D00AF8D1F /* Debug */,
+				EF9C8EEC1F56A49D00AF8D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9C8EED1F56A49D00AF8D1F /* Build configuration list for PBXNativeTarget "qgpods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9C8EEE1F56A49D00AF8D1F /* Debug */,
+				EF9C8EEF1F56A49D00AF8D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF9C8EF01F56A49D00AF8D1F /* Build configuration list for PBXNativeTarget "qgpodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9C8EF11F56A49D00AF8D1F /* Debug */,
+				EF9C8EF21F56A49D00AF8D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF9C8EF31F56A49D00AF8D1F /* Build configuration list for PBXNativeTarget "qgpodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9C8EF41F56A49D00AF8D1F /* Debug */,
+				EF9C8EF51F56A49D00AF8D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9C8EB81F56A49D00AF8D1F /* Project object */;
+}
